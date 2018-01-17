@@ -10,8 +10,8 @@
  */
 module.exports = [
   {
-    initialUrl: 'http://localhost:10200/online-only.html',
-    url: 'http://localhost:10200/online-only.html',
+    initialUrl: 'http://localhost:10200/preload.html',
+    url: 'http://localhost:10200/preload.html',
     audits: {
       'speed-index-metric': {
         score: '>=90',

@@ -301,7 +301,12 @@ module.exports = [
         score: 100,
       },
       'no-document-write': {
-        score: true,
+        score: false,
+        details: {
+          items: {
+            length: 1,
+          },
+        },
       },
       'no-mutation-events': {
         score: true,
